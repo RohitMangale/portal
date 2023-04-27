@@ -1,0 +1,95 @@
+.all-form{ 
+    width: 1280px;
+    margin: auto;
+}
+
+.all-form .title h1{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: var(--big-font);
+    text-align: center;
+}
+
+.all-form .title h1::before{
+    left: 50%;
+    transform: translatex(-50%);
+    background: var(--red);
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 55px;
+    top: 56%;
+    bottom: 0;
+}
+
+.all-form .info{
+    align-items: center;
+    justify-content: center;
+}
+.all-form .info p{
+    font-size: var(--para);
+    text-align: center;
+}
+
+
+.all-form .form{
+    width: 100%;
+}
+.all-form .form form{
+    padding: 2rem;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.all-form form .inputs{
+    width:80%;
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap:8px;
+}
+.all-form form .inputs .label label{
+    width: 100%;
+    font-size: var(--medium);
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.all-form form .inputs .label span{
+    color: var(--red);
+    font-size: var(--medium);
+}
+.all-form form .inputs .input input
+
+{
+    width: 100%;
+    padding: 10px;
+    font-size: var(--para);
+    background: var(--bg-grey);
+    border: 1px solid #979797;
+    color: #787878;
+    outline: none;
+   
+}
+select{
+    width: 102%;
+    padding: 10px;
+    font-size: var(--para);
+    background: var(--bg-grey);
+    border: 1px solid #979797;
+    color: #787878;
+    outline: none;
+    cursor: pointer;
+}
+select option{
+    width: 100%;
+    padding: 10px;
+    font-size: var(--para);
+    background: var(--bg-grey);
+    border: 1px solid #979797;
+    color: #787878;
+    outline: none;
+    cursor: pointer;
+}

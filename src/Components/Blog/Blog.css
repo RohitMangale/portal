@@ -1,0 +1,50 @@
+.bp-maindiv{
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+    justify-content: space-between;
+    align-items:center ;
+}
+
+.bp-contentdiv{
+    width: 30%;
+    padding: 3rem 0 0 0;
+}
+
+.bp-imgdiv{
+    width: 100%;
+    height: 250px;
+}
+
+.bp-imgdiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.bp-textdiv{
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.bp-textdiv small{
+    font-size: var(--small);
+    background: var( --bg-grey);
+    padding: .5rem 1rem .5rem 1rem;
+    border-radius: 10px;
+}
+
+.bp-textdiv h3{
+    font-size: var(--medium);
+    font-weight: 500;
+    padding: 1rem 0 .5rem 0;
+    margin: 0;
+}
+
+.bp-textdiv p{
+    font-size: var(--para);
+    text-align: justify;
+    padding: 0 0 .5rem 0;
+    margin: 0;
+}

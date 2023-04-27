@@ -1,0 +1,24 @@
+.tc-head h1{
+    font-size: var(--heading);
+    text-align: center;
+}
+
+.tc-head p{
+    font-size: var(--para);
+    text-align: center;
+}
+
+.tc-onedive{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    background: var(--bg-grey);
+    padding: 2rem 3rem 2rem 3rem;
+    border-radius: 3rem;
+}
+
+.tc-onedive h6{
+    font-size: var(--para);
+    display: list-item;          
+    list-style-type: square;     
+    list-style-position: inside;
+}
